@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.billingFormContainer{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.billingFormContainer {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 25px;
+}
+
+.billingFormContainer form {
+    padding: 20px;
+    width: 800px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.billingFormContainer .row {
+    display: flex;
+    gap: 15px;
+}
+
+.billingFormContainer .title {
+    font-size: 15px 0;
+}
+
+.billingFormContainer .inputBox {
+    margin: 25px 0;
+    position: relative;
+}
+
+.billingFormContainer .inputBox span {
+    position: absolute;
+    display: block;
+    color: red;
+}
+
+
+.billingFormContainer p {
+    margin-bottom: 10px;
+}
+
+.billingFormContainer input,
+select {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.billingFormContainer .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.billingFormContainer img {
+    height: 34px;
+    margin-top: 3.85px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.billingFormContainer button {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+
+
+.billingFormContainer .dontAgreeTerm {
+    margin-left: 8rem;
+}
+
+.billingFormContainer .termsCondition label {
+    margin-left: 0.7rem;
+}
+
+ .billingFormContainer .termsCondition input {
+    height: 15px;
+    width: 15px;
+}
+
+.billingFormContainer .termsCondition {
+    margin: 15px 0;
+    font-size: 1.1rem;
+
+}
+
+
+.billingFormContainer .table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.billingFormContainer table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+
+}

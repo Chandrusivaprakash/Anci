@@ -1,0 +1,29 @@
+
+
+.clientHeader nav{
+    background-color: white !important;
+}
+
+nav li{
+ margin-right: 20px;
+}
+
+nav li button{
+    border-radius: 18px !important;
+}
+
+
+.icons{
+    display: flex;
+    /* flex:1; */
+    margin-top: 8px;
+    margin-right: 40px;
+}
+
+.icons .cartIcon{
+    margin-right: 18px;
+}
+
+.icons ion-icon{
+    font-size: 1.5rem;
+}

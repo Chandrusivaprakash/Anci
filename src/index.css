@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.formInput{
+  position : relative;
+  margin-bottom: 20px;
+}
+
+.formInput span{
+  color:red;
+}
+
+.errMsg{
+  position: absolute;
+}
+
+.para{
+  color:steelblue;
+}
+
+.spinnerComp{
+  margin-top: 300px
+}
+
+.loginBtn{
+  background-color:		#32CD32 
+}
+
+.loginBtn:hover{
+  background-color:	white !important;
+  color: #006400  !important;
+  border: 1.5px solid green !important;
+}
+
+.signupBtn{
+  background-color:		#C71585
+}
+
+.signupBtn:hover{
+  background-color:	white !important;
+  color: #C71585  !important;
+  border: 1.5px solid #C71585!important;
+}
+
+
+
+.clientPage .brandCards img{
+ height: 100px;
+ width: 120px;
+}
+
+
+.container ion-icon{
+  font-size: 1.5rem;
+}
+
+.removeCartBtn{
+  background-color: gray;
+  color: white;
+  border-radius: 8px;
+  padding:7px 10px;
+  border: none;
+}
+
+.removeCartBtn:hover{
+  background-color: #808080;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:20px;
+}
+
+.billingCards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+}
